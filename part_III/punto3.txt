@@ -1,0 +1,6 @@
+CREATE USER amartinez 
+    IDENTIFIED BY pwd_amartinez 
+    DEFAULT TABLESPACE SYSTEM 
+    QUOTA UNLIMITED ON SYSTEM 
+    PROFILE Ventas;
+GRANT CONNECT TO amartinez;
